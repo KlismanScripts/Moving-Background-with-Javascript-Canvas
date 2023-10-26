@@ -88,7 +88,18 @@ input{
         font-size: 5em;
     }
 }
+@media (width < 567px ){
 
+    #canvas{
+        width: 350px;
+        height: 300px;
+    }
+
+    input{
+        width: 300px;
+        font-size: 5em;
+    }
+}
 
 
 
